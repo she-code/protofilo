@@ -1,0 +1,52 @@
+.header {
+    height: 100vh;
+    background-image: url("../img/computer2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+    // -webkit-clip-path: polygon(1px 10px, 98.06% 59px, 95.97% 94vh, 29px 80.01%);
+    //         clip-path: polygon(1px 10px, 98.06% 59px, 95.97% 94vh, 29px 80.01%);
+
+    &--box {
+        position: absolute;
+        top: 20rem;
+        left: 10rem;
+    }
+
+    &--projects {
+        //  width: 60%;
+        position: absolute;
+        top: 70%;
+        //  left: 50%;
+
+        &_contents {
+            display: flex;
+            width: 100%;
+            align-items: center;
+            justify-self: center;
+            flex-wrap: wrap;
+        }
+
+        &_img {
+            width: 300px;
+        }
+    }
+
+    &--scroll-btn {
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        //   padding: 1.5rem;
+        border-radius: 50%;
+        box-shadow: 0 5px 10px #fff;
+        color: #e808c6;
+        -webkit-animation-name: top-down;
+        animation-name: top-down;
+        -webkit-animation-duration: .3s;
+        animation-duration: .3s;
+        -webkit-animation-delay: .2s;
+        animation-delay: .2s;
+    }
+}

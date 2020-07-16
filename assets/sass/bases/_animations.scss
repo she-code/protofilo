@@ -1,0 +1,33 @@
+@-webkit-keyframes top-down {
+    // 0% {
+    //     top: 80%;
+    // }
+
+    // 100% {
+    //     left: 100%;
+    // }
+    from {
+        top: 80%;
+    }
+
+    to {
+        top: 90%;
+    }
+}
+
+@keyframes top-down {
+    // 0% {
+    //     top: 80%;
+    // }
+
+    // 100% {
+    //     left: 100%;
+    // }
+    from {
+        top: 80%;
+    }
+
+    to {
+        top: 90%;
+    }
+}

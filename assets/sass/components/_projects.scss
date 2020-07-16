@@ -1,0 +1,81 @@
+.projects {
+    margin-top: 6rem;
+    display: grid;
+
+    // grid-template-columns: 6(50%);
+    .head-secondary {
+        text-align: center;
+        margin-top: 4rem;
+    }
+
+
+    &--contents {
+        &_pad {
+            padding: 4rem;
+        }
+    }
+
+    &--title_main {
+        font-weight: bold;
+    }
+
+    &--btn {
+        margin: 6rem auto;
+        width: 40%;
+        text-align: center;
+
+        a {
+            color: white;
+
+            &:hover {
+                color: white;
+                text-decoration: none;
+            }
+        }
+
+    }
+
+
+    .card {
+        border: none;
+        margin-right: 4rem;
+        border-radius: 10px;
+        box-shadow: 0 10px 20px black;
+        overflow: hidden;
+        margin-bottom: 4rem;
+        // &:not(:last-child) {
+        //     margin-right: 6rem;
+        // }
+
+        &:first-child {
+            margin-left: 4rem;
+        }
+
+        &-header {
+            padding: 0;
+            border: none;
+        }
+
+        &-body {
+            padding: 2rem;
+            color: black;
+            border: none;
+
+            span {
+                font-weight: 700;
+            }
+        }
+
+        &-footer {
+            border: none;
+            margin: 3rem 0;
+
+            .preview {
+                width: 50%;
+                margin: 0 auto;
+                text-transform: capitalize;
+                text-align: center;
+            }
+        }
+    }
+}

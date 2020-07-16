@@ -1,0 +1,43 @@
+@media only screen and (max-width:1200px) {
+    .projects .container-fluid {
+        padding: 3rem;
+    }
+}
+
+/*small tablet to big tablet :from 768px to 1023px*/
+
+@media only screen and (max-width:1023px) {
+    .projects .card {
+        margin: 0;
+    }
+
+    .projects .container-fluid {
+        padding: 0;
+    }
+}
+
+/*small phones to small tablets :481px to 767px*/
+
+@media only screen and (max-width:767px) {
+
+    .skills--body {
+        flex-direction: column;
+    }
+
+    .skills--description {
+        justify-content: center;
+        margin-bottom: 4rem;
+    }
+
+    .heading--primary_main {
+        font-size: 6rem;
+        letter-spacing: 1rem;
+    }
+
+    .heading--secondary_descritpion {
+        font-size: 2.3rem;
+    }
+}
+
+/*small phones 0 to 480px*/
+@media only screen and (max-width:480px) {}
